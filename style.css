@@ -1,0 +1,178 @@
+body {
+    height: 95vh;
+    background-color: #e2f1f5;
+}
+
+nav {
+    margin: 0px;
+    border: 1px;
+    background-color: #e9fac8;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    font-size: large;
+}
+
+#logo {
+    width: 129px;
+    margin: 0px;
+    border: 1px solid #e9fac8;
+    border-radius: 30px 30px 30px 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 2px;
+    display: flex; 
+}
+
+#titulo {
+    margin-inline-start: 38%;
+    margin-block-end: 50%;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #FBFFF0;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#pesquisa {
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 14px;
+    align-items: center;
+    align-content: center;
+    width: 350px;
+    margin-left: 86%;
+}
+
+.button {
+    display: inline-block;
+}
+
+.button:hover {
+    background-color: #eee7e7;
+}
+ 
+form {
+    display: block;
+    color: #333;
+    padding: 14px 16px ;
+    height: auto;
+    width: auto;
+    text-align: right;
+    margin-right: 0%;
+}
+
+.caixa-produtos {
+    display: block;
+}
+
+#maisvendidos {
+    font-size: 35px;
+    text-align: left;
+}
+
+.item {
+    display: inline-flex;
+    width: 270px;
+    justify-content: space-between;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.botao-compra {
+    margin-top: 5px;
+    padding-top: 1px;
+}
+
+.botao-compra:hover {
+    background-color: #eee7e7;
+}
+
+
+
+.formulario {
+    display: inline-block;
+    justify-content: center;
+    margin-left: 38%
+}
+
+#texto-cadastro {
+    font-size: 35px;
+    align-items: center;
+    margin-top: 1px;
+}
+
+#caixadetexto {
+    justify-content: center;
+    align-items: center;
+    margin-left: 18%;
+    margin-bottom: 10px;
+    width: 320px;
+}
+
+#caixadetexto:hover {
+    border-color: #c7c4c4;
+}
+
+.enviar {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+#sobretitulo {
+    display: block;
+    margin-left: 46.5%;
+    font-size: 40px;
+    margin-bottom: 2px;
+}
+
+.sobre {
+    display: flex;
+    font-size: 18px;
+    margin-left: 32%;
+}
+
+#lorem {
+    font-size: 20px;
+    text-align: center;
+}
+
+.final {
+    display: flexbox;
+}
+
+#direito {
+    display: block;
+    margin-left: 46.66%;
+}
+
+#data {
+    display: block;
+    margin-left: 49.3%;
+    font-family: sans-serif;
+}
